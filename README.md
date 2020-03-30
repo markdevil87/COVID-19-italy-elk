@@ -1,6 +1,7 @@
 # COVID-19-italy-elk
 _ELK files to be used with italian COVID-19 data_
 
+
 ### References
 
 This is the [official italian COVID-19 repository](https://github.com/pcm-dpc/COVID-19) provided by **Protezione Civile** used as data source for this tools.
@@ -42,3 +43,10 @@ output {
 ```
 
 * run Logstash to index data on Elasticsearch
+
+
+### Examples
+
+Here is an example of what you can do with Kibana once the data is indexed in Elasticsearch:
+
+![Example regional trend graph](images/regional_trend_graph.png)
