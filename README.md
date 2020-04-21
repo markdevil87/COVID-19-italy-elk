@@ -45,6 +45,17 @@ output {
 * run Logstash to index data on Elasticsearch
 
 
+### Notes
+
+* added population dictionaries
+
+```
+*  popolazione_nazionale.csv
+* popolazione_province.csv
+* popolazione_regioni.csv
+```
+
+
 ### Examples
 
 Here is an example of what you can do with Kibana once the data is indexed in Elasticsearch:
